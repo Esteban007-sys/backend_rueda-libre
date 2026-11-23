@@ -1,0 +1,21 @@
+{
+  "name": "backend-rueda-libre",
+  "version": "1.0.0",
+  "description": "API REST en Node.js (ES Modules) + Express + PostgreSQL (Supabase) para Rueda Libre",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test --test-concurrency=1 tests/"
+  },
+  "engines": {
+    "node": ">=18.11.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
